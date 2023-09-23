@@ -53,6 +53,7 @@
 
 /*====INSTITUTIONAL============================ */
 header h1 {
+    font-family: 'Ubuntu', sans-serif;
     font-size: 5rem;
     font-weight: 700;
 
@@ -62,6 +63,8 @@ header h1 {
 }
 
 #institutional {
+    font-family: 'Ubuntu', sans-serif;
+
     background-color: var(--bg-color);
 }
 

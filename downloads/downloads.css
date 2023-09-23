@@ -57,6 +57,7 @@
 
 /*====  header ============================ */
 header h1 {
+    font-family: 'Ubuntu', sans-serif;
     font-size: 5rem;
     font-weight: 700;
     
@@ -67,6 +68,7 @@ header h1 {
 
 /*==== downloads ============================ */
 #downloads {
+    font-family: 'Ubuntu', sans-serif;
     background-color: var(--bg-color);
 
     padding-bottom: 8rem;
@@ -133,6 +135,7 @@ header h1 {
 /*==== downloads cards ============================ */
 
 .content .cards {
+    font-family: 'Montserrat', sans-serif;
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-items: center;
@@ -198,6 +201,7 @@ header h1 {
     outline: none;
     border-bottom: 1px solid var(--second-color);
 }
+
 
 
 

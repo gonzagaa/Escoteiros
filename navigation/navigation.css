@@ -294,5 +294,9 @@ nav {
         padding-inline: 1rem;
         width: 100%;
       }
+
+      .wrapper {
+        width: min(133rem, 100%);
+      }
     
     } 

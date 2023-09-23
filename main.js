@@ -34,7 +34,11 @@ ScrollReveal({
     origin: 'top',
     distance: '100px',
     duration: '700'
-}).reveal(`.home-image`);
+}).reveal(
+    `.home-image,
+    .card,
+    header,
+    .content`);
 
 ScrollReveal({
     origin: 'top',
