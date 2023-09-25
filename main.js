@@ -46,35 +46,35 @@ ScrollReveal({
 }).reveal(`.input`);
 
 ScrollReveal({
-    origin: 'left',
+    origin: 'right',
     distance: '100px',
     duration: '2000',
-}).reveal(`#adulto`);
+}).reveal(`#lobinho`);
 
 ScrollReveal({
-    origin: 'left',
+    origin: 'right',
     distance: '100px',
     duration: '2000',
     delay: '150'
-}).reveal(`#pioneiro`);
+}).reveal(`#escoteiro`);
 
 ScrollReveal({
-    origin: 'left',
+    origin: 'right',
     distance: '100px',
     duration: '2000',
     delay: '300'
 }).reveal(`#senior`);
 
 ScrollReveal({
-    origin: 'left',
+    origin: 'right',
     distance: '100px',
     duration: '2000',
     delay: '450'
-}).reveal(`#escoteiro`);
+}).reveal(`#pioneiro`);
 
 ScrollReveal({
-    origin: 'left',
+    origin: 'right',
     distance: '100px',
     duration: '2000',
     delay: '600'
-}).reveal(`#lobinho`);
+}).reveal(`#adulto`);
