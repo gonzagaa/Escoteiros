@@ -8,7 +8,7 @@
 :root {
   --primary-color: #175906;
   --second-color: #068FDC;
-  --color-text: #fff; 
+  --color-text: #fff;  
   --bg-color: #F0F0F0;
   --paragraph: ;
 
@@ -179,10 +179,33 @@ input:focus, input:focus-visible {
   margin-bottom: 5rem;
 }
 
-#ramos .card span {
+#ramos .card span a {
   font-family: 'Ubuntu', sans-serif;
-  
+  color: #000;
+  text-decoration: none;
   margin-bottom: 1.3rem;
+
+  transition: all 300ms ease-in-out;
+}
+
+#lobinho span a:hover {
+  color: #FDB813;
+}
+
+#escoteiro span a:hover {
+  color: #00793A;
+}
+
+#senior span a:hover {
+  color: #A61744;
+}
+
+#pioneiro span a:hover {
+  color: #C00D0E;
+}
+
+#adulto span a:hover {
+  color: #1f0dc0;
 }
 
 #ramos .card p {
@@ -232,6 +255,10 @@ input:focus, input:focus-visible {
 
 #pioneiro .image-card {
   border: .3rem solid #C00D0E;
+}
+
+#adulto .image-card {
+  border: .3rem solid #1f0dc0;
 }
 
 /* NEWS =================== */
@@ -352,16 +379,31 @@ input:focus, input:focus-visible {
 /* RESPONSIVE =================== */
 
 @media (min-width: 1300px) {
+/* geral 1300px =================== */
+
+.wrapper {
+  width: min(133rem, 100%);
+}
+
 /* input 1300px =================== */
 
   #input {
   height: 20vh;
   }
 
-/* geral 1300px =================== */
+/* ramos 1300px =================== */
 
-.wrapper {
-  width: min(133rem, 100%);
+section#ramos .cards {
+  flex-direction: row;
+}
+
+section#ramos .image-card {
+  height: 23rem;
+  width: 20rem;
+}
+
+section#ramos img {
+  width: 15rem;
 }
 
 } 
