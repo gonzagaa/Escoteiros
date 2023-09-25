@@ -36,7 +36,6 @@ ScrollReveal({
     duration: '700'
 }).reveal(
     `.home-image,
-    .card,
     header,
     .content`);
 
@@ -46,3 +45,36 @@ ScrollReveal({
     duration: '2000'
 }).reveal(`.input`);
 
+ScrollReveal({
+    origin: 'left',
+    distance: '100px',
+    duration: '2000',
+}).reveal(`#adulto`);
+
+ScrollReveal({
+    origin: 'left',
+    distance: '100px',
+    duration: '2000',
+    delay: '150'
+}).reveal(`#pioneiro`);
+
+ScrollReveal({
+    origin: 'left',
+    distance: '100px',
+    duration: '2000',
+    delay: '300'
+}).reveal(`#senior`);
+
+ScrollReveal({
+    origin: 'left',
+    distance: '100px',
+    duration: '2000',
+    delay: '450'
+}).reveal(`#escoteiro`);
+
+ScrollReveal({
+    origin: 'left',
+    distance: '100px',
+    duration: '2000',
+    delay: '600'
+}).reveal(`#lobinho`);
