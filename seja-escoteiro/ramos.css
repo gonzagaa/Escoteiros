@@ -51,44 +51,42 @@
     background-color: var(--primary-color);
   }
 
-/*====INSTITUTIONAL============================ */
+/*====  ramo ============================ */
+
 header h1 {
     font-family: 'Ubuntu', sans-serif;
     font-size: 5rem;
     font-weight: 700;
 
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 
     margin-top: var(--nav-height);
 }
 
-#institutional {
+#ramo {
     font-family: 'Ubuntu', sans-serif;
     background-color: var(--bg-color);
+    padding: 3rem;
 }
 
-#institutional h2 {
-    font-size: 2.5rem;
-    font-weight: 400;
-
-    margin-bottom: 2rem;
-}
-
-#institutional .content {
-    display: flex;
-    flex-direction: column;
-}
-
-#institutional .content img {
-    margin-bottom: 1rem;
-
+#ramo .content .principal-image {
     width: 100%;
-    background-color: var(--primary-color);
+    border-radius: 2rem;
+    filter: saturate(1.1) contrast(1.1);
+
+    position: relative;
 }
 
-#institutional .content p {
-    font-size: 1.6rem;
-    
-    margin-bottom: 3rem;
+#ramo .content p {
+    margin-top: 3rem;
+
+    font-size: 1.8rem;
 }
 
+#ramo .content .ramo-logo {
+    position: fixed;
+
+    right: 33rem;
+    z-index: 100;
+    width: 10rem;
+}

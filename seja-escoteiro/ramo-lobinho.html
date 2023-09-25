@@ -1,36 +1,34 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escoteiros - Seja um escoteiro</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <title>Escoteiros</title>
-
-    <link rel="stylesheet" href="./style.css" />
-    <link rel="stylesheet" href="./footer/footer.css">
-    <link rel="stylesheet" href="./navigation/navigation.css">
+    <link rel="stylesheet" href="./ramos.css">
+    <link rel="stylesheet" href="../footer/footer.css">
+    <link rel="stylesheet" href="../navigation/navigation.css">
 
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@400;700&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
-  </head>
-  <body class="">
-
+</head>
+<body>
     <nav id="navigation" class="">
 
         <div class="wrapper">
 
             <a class="logo" href="#home">
-                <img src="./assets/logo-colorida.svg" alt="">
+                <img src="../assets/logo-colorida.svg" alt="">
             </a>
             
             <div class="menu">
 
                 <ul>
-                    <li><a onclick="closeMenu()" href="#home">Home</a></li>
-                    <li><a onclick="closeMenu()" href="./institucional/institucional.html">Institucional</a></li>
-                    <li><a onclick="closeMenu()" href="./downloads/downloads.html">Downloads</a></li>
+                    <li><a onclick="closeMenu()" href="../index.html">Home</a></li>
+                    <li><a onclick="closeMenu()" href="/institucional/institucional.html">Institucional</a></li>
+                    <li><a onclick="closeMenu()" href="../downloads/downloads.html">Downloads</a></li>
                     <li><a onclick="closeMenu()" href="#">Eventos</a></li>
                     <li><a onclick="closeMenu()" href="#">Notícias</a></li>
                     <li><a onclick="closeMenu()" href="#">Contato</a></li>
@@ -106,167 +104,24 @@
            
     </nav>
 
-    <header id="home">
-
-        <div class="wrapper">
-
-            <div class="home-image">
-                <h1>Viva essa aventura!</h1>
-            </div>
-    
-        </div>
-
+    <header class="wrapper">
+        <h1>Ramo Lobinho</h1>
     </header>
 
-    <section id="input">
-
-        <div class="input wrapper">
-    
-            <label id="label" for="Input">Ache um grupo de Escoteiros próximo de você!</label>
-
-            <div class="input-group">
-                <input type="text" id="Input" name="Input" placeholder="CEP ou Localização">
-                <input class="button--submit" value="Procurar" type="submit">
-            </div>
-
-        </div>
-
-    </section>
-
-    <section id="ramos">
+    <section id="ramo">
 
         <div class="wrapper">
-
-            <h2>Qual a idade do seu filho?</h2>
-
-            <div class="cards">
-                <div class="card" id="lobinho">
-                    <div class="image-card">
-                        <a href="./seja-escoteiro/ramo-lobinho.html">
-                            <img src="./assets/Símbolo-Ramo-Lobinho 1.png" alt="Logo ramo lobinho">
-                        </a>
-                    </div>
-    
-                    <span>Lobinho</span>
-                    <p>De 6 - 10 anos</p>
-                </div>
-    
-                <div class="card" id="escoteiro">
-                    <div class="image-card">
-                        <a href="./seja-escoteiro/ramo-escoteiro.html">
-                            <img src="./assets/Símbolo-Ramo-Escoteiro-4.png" alt="Logo ramo escoteiro">
-                        </a>
-                    </div>
-    
-                    <span>Escoteiro</span>
-                    <p>De 11 - 14 anos</p>
-                </div>
-    
-                <div class="card" id="senior">
-                    <div class="image-card">
-                        <a href="./seja-escoteiro/ramo-senior.html">
-                            <img src="./assets/Símbolo-Ramo-Sênior-1.png" alt="Logo ramo Sênior">
-                        </a>
-                    </div>
-    
-                    <span>Sênior</span>
-                    <p>De 15 - 17 anos</p>
-                </div>
-    
-                <div class="card" id="pioneiro">
-                    <div class="image-card">
-                        <a href="./seja-escoteiro/ramo-pioneiro.html">
-                            <img src="./assets/Símbolo-Ramo-Pio-5.png" alt="Logo ramo pioneiro">
-                        </a>
-                    </div>
-    
-                    <span>Pioneiro</span>
-                    <p>De 18 - 21 anos</p>
-                </div>
-    
-                <div class="card" id="pioneiro">
-                    <div class="image-card">
-                        <a href="#">
-                            <img src="./assets/Símbolo-Ramo-Pio-5.png" alt="Logo ramo pioneiro">
-                        </a>
-                    </div>
-    
-                    <span>Sou adulto</span>
-                    <p>18+ anos</p>
-                </div>
-            </div>
-            
-        </div>
-        
-    </section>
-
-    <section id="news">
-
-        <div class="line">
-            <span class="regua"></span>
-            <img src="./assets/Frame.svg" alt="">
-            <span class="regua"></span>
-        </div>
-
-        <div class="wrapper">
-
-            <h2>Últimas notícias</h2>
-
-            <div class="cards">
-
-                <div class="card">
-                    <img src="" alt="imagem1">
-                    
-                    <header class="description">
-                        <h4>Título</h4>
-                        <p>Descrição</p>
-                    </header>
-                </div>
-
-                <div class="card">
-                    <img src="" alt="imagem2">
-
-                    <header class="description">
-                        <h4>Título</h4>
-                        <p>Descrição</p>
-                    </header>
-                </div>
-
-                <div class="card">
-                    <img src="" alt="imagem3">
-                    
-                    <header class="description">
-                        <h4>Título</h4>
-                        <p>Descrição</p>
-                    </header>
-                </div>
-
-            </div>
-
-        </div>
-    </section>
-
-    <section id="about">
-        <div class="wrapper">
-
-            <header>
-                <span>SOBRE</span>
-                <h2>Escotismo</h2>
-            </header>
-            
 
             <div class="content">
+                <img class="principal-image" src="../assets/meninos-felizes-com-laranjas-nos-olhos.png" alt="">
 
-                <p>O Movimento Escoteiro foi fundado em 1907 por Robert Baden-Powell, na Inglaterra. Baden-Powell aproveitou os elementos positivos de camaradagem, iniciativa, coragem e autodisciplina presentes na sua vida militar, bem como técnicas que seriam úteis no desenvolvimento dos jovens para criar um novo movimento educacional.
-                    A partir de saberes e habilidades que aprendeu enquanto esteve na Índia e na África, ele escreveu, em 1899, um livro chamado “Ajudas à Exploração Militar” (Aids To Scouting), que continha informações sobre seguir pistas, exploração e técnicas que se referiam à vida em campo. O sucesso foi tanto que os jovens ingleses usaram para se divertir e viver novas aventuras.
-                    Percebendo o enorme interesse dos jovens em aprender e replicar as técnicas citadas no livro, Baden-Powell empenhou-se em adaptá-lo para ser utilizado pelas escolas britânicas. E foi assim, reunindo as experiências e as atividades ao ar livre que criou um estilo de vida que passou a ser utilizado na educação e formação dos jovens: o Escotismo.
-                </p>
-
-                <img src="./assets/PeCamposPhoto-VJogosEsc2018-17 1.jpg" alt="">
-
+                <p>Rorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec ut rhoncus ex. Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem. Morbi convallis convallis diam sit amet lacinia. Aliquam in elementum tellus.
+                    Curabitur tempor quis eros tempus lacinia. Nam bibendum pellentesque quam a convallis. Sed ut vulputate nisi. Integer in felis sed leo vestibulum venenatis. Suspendisse quis arcu sem. Aenean feugiat ex eu vestibulum vestibulum. Morbi a eleifend magna. Nam metus lacus, porttitor eu mauris a, blandit ultrices nibh. Mauris sit amet magna non ligula vestibulum eleifend. Nulla varius volutpat turpis sed lacinia. Nam eget mi in purus lobortis eleifend. Sed nec ante dictum sem condimentum ullamcorper quis venenatis nisi. Proin vitae facilisis nisi, ac posuere leo.
+                    Nam pulvinar blandit velit, id condimentum diam faucibus at. Aliquam lacus nisi, sollicitudin at nisi nec, fermentum congue felis. Quisque mauris dolor, fringilla sed tincidunt ac, finibus non odio. Sed vitae mauris nec ante pretium finibus. Donec nisl neque, pharetra ac elit eu, faucibus aliquam ligula. Nullam dictum, tellus tincidunt tempor laoreet, nibh elit sollicitudin felis, eget feugiat sapien diam nec nisl. Aenean gravida turpis nisi, consequat dictum risus dapibus a. Duis felis ante, varius in neque eu, tempor suscipit sem. Maecenas ullamcorper gravida sem sit amet cursus. Etiam pulvinar purus vitae justo pharetra consequat. Mauris id mi ut arcu feugiat maximus. Mauris consequat tellus id tempus aliquet.
+      </p>
             </div>
-
         </div>
+
     </section>
 
     <footer id="footer">
@@ -275,7 +130,7 @@
 
             <div class="content">
 
-                <img class="logo" src="./assets/logo-branca.svg" alt="">
+                <img class="logo" src="../assets/logo-branca.svg" alt="">
 
                 <div class="contacts">
                     <a href="#">Contatos</a>
@@ -326,15 +181,5 @@
         </div>
 
     </footer>
-
-    <a id="backToTopButton" class="show" href="#home">
-
-        <svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" fill="#000000" viewBox="0 0 256 256"><path d="M208,32H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32Zm-42.34,93.66a8,8,0,0,1-11.32,0L136,107.31V168a8,8,0,0,1-16,0V107.31l-18.34,18.35a8,8,0,0,1-11.32-11.32l32-32a8,8,0,0,1,11.32,0l32,32A8,8,0,0,1,165.66,125.66Z"></path></svg>
-
-    </a>
-
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <script src="./main.js"></script>
-  </body>
+</body>
 </html>
-
