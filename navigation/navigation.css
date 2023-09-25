@@ -266,6 +266,36 @@ nav {
       nav#navigation .menu a.button:hover {
         background-color: var(--second-color);
       }
+
+      nav#navigation .menu ul li:nth-child(6) {
+        animation: entering 400ms ease-in-out backwards;
+      }
+
+      nav#navigation .menu ul li:nth-child(5) {
+        animation: entering 400ms ease-in-out;
+        animation-delay: 200ms;
+      }
+
+      nav#navigation .menu ul li:nth-child(4) {
+        animation: entering 400ms ease-in-out backwards;
+        animation-delay: 400ms;
+      }
+
+      nav#navigation .menu ul li:nth-child(3) {
+        animation: entering 400ms ease-in-out backwards;
+        animation-delay: 600ms;
+      }
+
+      nav#navigation .menu ul li:nth-child(2) {
+        animation: entering 400ms ease-in-out backwards;
+        animation-delay: 800ms;
+      }
+    
+      nav#navigation .menu ul li:nth-child(1) {
+        animation: entering 400ms ease-in-out backwards;
+        animation-delay: 1000ms;
+      }
+    
     
       nav#navigation .menu li a {
         transition: all 300ms;
@@ -300,3 +330,20 @@ nav {
       }
     
     } 
+
+
+  /* ANIMATIONS =================== */
+
+  @keyframes entering {
+    0% {
+      transform: translateX(-200px);
+      opacity: 0;
+    }
+
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+

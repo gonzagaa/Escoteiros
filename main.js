@@ -46,8 +46,3 @@ ScrollReveal({
     duration: '2000'
 }).reveal(`.input`);
 
-ScrollReveal({
-    origin: 'left',
-    distance: '100px',
-    duration: '2000'
-}).reveal(`.menu ul li`);
