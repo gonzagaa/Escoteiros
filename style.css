@@ -161,6 +161,7 @@ input:focus, input:focus-visible {
 }
 
 /* RAMOS =================== */
+
 #ramos .wrapper {
   display: flex;
   flex-direction: column;
