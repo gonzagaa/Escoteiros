@@ -162,7 +162,7 @@ input:focus, input:focus-visible {
 
 /* RAMOS =================== */
 
-#ramos .wrapper {
+#ramos .cards {
   display: flex;
   flex-direction: column;
   align-items: center;
