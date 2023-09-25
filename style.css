@@ -406,6 +406,20 @@ section#ramos img {
   width: 15rem;
 }
 
+/* news 1300px =================== */
+
+section#news .cards {
+  flex-direction: row;
+}
+
+/* about 1300px =================== */
+
+section#about .content {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+}
+
 } 
 
 
