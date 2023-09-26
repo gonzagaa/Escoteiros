@@ -202,6 +202,35 @@ header h1 {
     border-bottom: 1px solid var(--second-color);
 }
 
+/* RESPONSIVE =================== */
+
+@media (min-width: 1300px) {
+/* geral 1300px =================== */
+
+.wrapper {
+  width: min(133rem, 100%);
+}
+ 
+section#downloads .wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+section#downloads .content .cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+}
+
+}
+
+/* downloads 1300px =================== */
+
+
+
+
 
 
 
