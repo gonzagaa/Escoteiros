@@ -1,0 +1,87 @@
+/*RESET CSS =================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  :root {
+    --primary-color: #175906;
+    --second-color: #068FDC;
+    --color-text: #fff; 
+    --bg-color: #F0F0F0;
+    --paragraph: ;
+  
+    --nav-height: 7.2rem;
+  
+    font-size: 62.5%; /* 1rem = 10px */
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+  }
+  
+  ul {
+    list-style: none;
+  }
+
+/*====BASE============================ */
+
+  .wrapper {
+    width: min(50rem, 100%);
+    margin-inline: auto;
+  
+    padding-inline: 2.4rem;
+  }
+
+/*====sucesso============================ */
+
+body {
+    background-image: url(../assets/bg\ sucesso.jpg);
+    background-repeat: no-repeat;
+    background-position: 33%;
+}
+
+#sucesso .wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40rem;
+
+    gap: 2rem;
+}
+
+#sucesso h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    color: var(--color-text);
+    line-height: 130%;
+      
+    text-transform: uppercase;
+      
+    text-shadow: .5px .5px 6px #210F08;
+}
+
+#sucesso button {
+    background-color: var(--second-color);
+    padding: .6rem 3rem;
+
+    border: none;
+    border-radius: .7rem;
+}
+
+#sucesso button a {
+    color: var(--color-text);
+    text-decoration: none;
+}
+
+#sucesso button:hover {
+    background-color: #0575b5;
+}

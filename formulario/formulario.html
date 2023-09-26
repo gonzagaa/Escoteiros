@@ -1,39 +1,37 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escoteiros - Institucional</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <title>Escoteiros</title>
-
-    <link rel="stylesheet" href="./style.css" />
-    <link rel="stylesheet" href="./footer/footer.css">
-    <link rel="stylesheet" href="./navigation/navigation.css">
+    <link rel="stylesheet" href="./formulario.css">
+    <link rel="stylesheet" href="../footer/footer.css">
+    <link rel="stylesheet" href="../navigation/navigation.css">
 
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@400;700&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
-  </head>
-  <body class="">
-
+</head>
+<body>
     <nav id="navigation" class="">
 
         <div class="wrapper">
 
             <a class="logo" href="#home">
-                <img src="./assets/logo-colorida.svg" alt="">
+                <img src="../assets/logo-colorida.svg" alt="">
             </a>
             
             <div class="menu">
 
                 <ul>
-                    <li><a onclick="closeMenu()" href="#home">Home</a></li>
-                    <li><a onclick="closeMenu()" href="./institucional/institucional.html">Institucional</a></li>
-                    <li><a onclick="closeMenu()" href="./downloads/downloads.html">Downloads</a></li>
+                    <li><a onclick="closeMenu()" href="../index.html">Home</a></li>
+                    <li><a onclick="closeMenu()" href="/institucional/institucional.html">Institucional</a></li>
+                    <li><a onclick="closeMenu()" href="../downloads/downloads.html">Downloads</a></li>
                     <li><a onclick="closeMenu()" href="#">Eventos</a></li>
                     <li><a onclick="closeMenu()" href="#">Notícias</a></li>
-                    <li><a onclick="closeMenu()" href="./formulario/formulario.html">Contato</a></li>
+                    <li><a onclick="closeMenu()" href="./formulario.html">Contato</a></li>
                 </ul>
  
                  <a onclick="closeMenu()" class="button" href="#ramos">Seja Escoteiro</a>
@@ -106,167 +104,42 @@
            
     </nav>
 
-    <header id="home">
-
-        <div class="wrapper">
-
-            <div class="home-image">
-                <h1>Viva essa aventura!</h1>
-            </div>
-    
-        </div>
-
+    <header class="wrapper" id="cabeçalho">
+        <h1>Formulário</h1>
     </header>
 
-    <section id="input">
-
-        <div class="input wrapper">
-    
-            <label id="label" for="Input">Ache um grupo de Escoteiros próximo de você!</label>
-
-            <div class="input-group">
-                <input type="text" id="Input" name="Input" placeholder="CEP ou Localização">
-                <input class="button--submit" value="Procurar" type="submit">
-            </div>
-
-        </div>
-
-    </section>
-
-    <section id="ramos">
-
-        <div class="wrapper">
-
-            <header>
-                <span>SEJA UM ESCOTEIRO</span>
-                <h2>Qual a idade do seu filho?</h2>
-            </header>
-
-            <div class="cards">
-                <div class="card" id="lobinho">
-                    <div class="image-card">
-                        <a href="./seja-escoteiro/ramo-lobinho.html">
-                            <img src="./assets/Símbolo-Ramo-Lobinho 1.png" alt="Logo ramo lobinho">
-                        </a>
-                    </div>
-    
-                    <span><a href="./seja-escoteiro/ramo-lobinho.html">Lobinho</a></span>
-                    <p>De 6 - 10 anos</p>
-                </div>
-    
-                <div class="card" id="escoteiro">
-                    <div class="image-card">
-                        <a href="./seja-escoteiro/ramo-escoteiro.html">
-                            <img src="./assets/Símbolo-Ramo-Escoteiro-4.png" alt="Logo ramo escoteiro">
-                        </a>
-                    </div>
-    
-                    <span><a href="./seja-escoteiro/ramo-escoteiro.html">Escoteiro</a></span>
-                    <p>De 11 - 14 anos</p>
-                </div>
-    
-                <div class="card" id="senior">
-                    <div class="image-card">
-                        <a href="./seja-escoteiro/ramo-senior.html">
-                            <img src="./assets/Símbolo-Ramo-Sênior-1.png" alt="Logo ramo Sênior">
-                        </a>
-                    </div>
-    
-                    <span><a href="./seja-escoteiro/ramo-senior.html">Sênior</a></span>
-                    <p>De 15 - 17 anos</p>
-                </div>
-    
-                <div class="card" id="pioneiro">
-                    <div class="image-card">
-                        <a href="./seja-escoteiro/ramo-pioneiro.html">
-                            <img src="./assets/Símbolo-Ramo-Pio-5.png" alt="Logo ramo pioneiro">
-                        </a>
-                    </div>
-    
-                    <span><a href="./seja-escoteiro/ramo-pioneiro.html">Pioneiro</a></span>
-                    <p>De 18 - 21 anos</p>
-                </div>
-    
-                <div class="card" id="adulto">
-                    <div class="image-card">
-                        <a href="#">
-                            <img src="./assets/Símbolo-Ramo-Pio-5.png" alt="Logo ramo pioneiro">
-                        </a>
-                    </div>
-    
-                    <span><a href="">Sou adulto</a></span>
-                    <p>18+ anos</p>
-                </div>
-            </div>
-            
-        </div>
+    <section id="form">
         
-    </section>
-
-    <section id="news">
-
-        <div class="line">
-            <span class="regua"></span>
-            <img src="./assets/Frame.svg" alt="">
-            <span class="regua"></span>
-        </div>
-
         <div class="wrapper">
-
-            <h2>Últimas notícias</h2>
-
-            <div class="cards">
-
-                <div class="card">
-                    <div class="card-image"></div>
-                    <p class="card-title">TÍTULO</p>
-                    <p class="card-body">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique odio possimus excepturi molestias magnam, aliquam provident. Repellendus nihil earum culpa repellat, nulla accusantium deserunt inventore.
-                    </p>
-                  </div>
-
-                  <div class="card">
-                    <div class="card-image"></div>
-                    <p class="card-title">TÍTULO</p>
-                    <p class="card-body">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quibusdam at vero officiis ad optio temporibus rem atque et? Necessitatibus, ad exercitationem aperiam doloribus sint excepturi fuga quia nihil assumenda.
-                    </p>
-                  </div>
-
-                  <div class="card">
-                    <div class="card-image"></div>
-                    <p class="card-title">TÍTULO</p>
-                    <p class="card-body">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi labore quia quidem veritatis, id modi praesentium consectetur accusantium neque assumenda, ut iste optio eum aspernatur alias dolorum rem similique numquam.
-                    </p>
-                  </div>
-
-            </div>
-
-        </div>
-    </section>
-
-    <section id="about">
-        <div class="wrapper">
-
-            <header>
-                <span>SOBRE</span>
-                <h2>Escotismo</h2>
-            </header>
-            
-
+        
             <div class="content">
+                <form action="https://formsubmit.co/iigust4vo@gmail.com" method="POST">
 
-                <p>O Movimento Escoteiro foi fundado em 1907 por Robert Baden-Powell, na Inglaterra. Baden-Powell aproveitou os elementos positivos de camaradagem, iniciativa, coragem e autodisciplina presentes na sua vida militar, bem como técnicas que seriam úteis no desenvolvimento dos jovens para criar um novo movimento educacional.
-                    A partir de saberes e habilidades que aprendeu enquanto esteve na Índia e na África, ele escreveu, em 1899, um livro chamado “Ajudas à Exploração Militar” (Aids To Scouting), que continha informações sobre seguir pistas, exploração e técnicas que se referiam à vida em campo. O sucesso foi tanto que os jovens ingleses usaram para se divertir e viver novas aventuras.
-                    Percebendo o enorme interesse dos jovens em aprender e replicar as técnicas citadas no livro, Baden-Powell empenhou-se em adaptá-lo para ser utilizado pelas escolas britânicas. E foi assim, reunindo as experiências e as atividades ao ar livre que criou um estilo de vida que passou a ser utilizado na educação e formação dos jovens: o Escotismo.
-                </p>
+                    <input type="hidden" name="_next" value="./sucesso.html">
 
-                <img src="./assets/PeCamposPhoto-VJogosEsc2018-17 1.jpg" alt="">
+                    <input type="hidden" name="_autoresponse" value="Obrigado! Recebemos sua mensagem."/>
 
+                    <label for="name">Nome</label>
+                    <input type="text" id="name" required>
+
+                    <label for="number">Telefone</label>
+                    <input type="number" id="number" required>
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email">
+
+                    <label for="subject">Assunto</label>
+                    <input type="text" id="subject" required>
+
+                    <label for="textarea">Mensagem</label>
+                    <textarea name="text"></textarea>
+
+                    <button type="submit">Enviar</button>
+                </form>
             </div>
 
         </div>
+
     </section>
 
     <footer id="footer">
@@ -275,7 +148,7 @@
 
             <div class="content">
 
-                <img class="logo" src="./assets/logo-branca.svg" alt="">
+                <img class="logo" src="../assets/logo-branca.svg" alt="">
 
                 <div class="contacts">
                     <a href="#">Contatos</a>
@@ -327,14 +200,7 @@
 
     </footer>
 
-    <a id="backToTopButton" class="show" href="#home">
-
-        <svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" fill="#000000" viewBox="0 0 256 256"><path d="M208,32H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32Zm-42.34,93.66a8,8,0,0,1-11.32,0L136,107.31V168a8,8,0,0,1-16,0V107.31l-18.34,18.35a8,8,0,0,1-11.32-11.32l32-32a8,8,0,0,1,11.32,0l32,32A8,8,0,0,1,165.66,125.66Z"></path></svg>
-
-    </a>
-
     <script src="https://unpkg.com/scrollreveal"></script>
-    <script src="./main.js"></script>
-  </body>
+    <script src="../main.js"></script>
+</body>
 </html>
-

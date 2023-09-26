@@ -69,9 +69,8 @@ header h1 {
 
 #institutional h2 {
     font-size: 2.5rem;
-    font-weight: 400;
-
-    margin-bottom: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
 #institutional .content {
