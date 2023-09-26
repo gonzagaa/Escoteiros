@@ -37,7 +37,8 @@ ScrollReveal({
 }).reveal(
     `.home-image,
     header,
-    .content`);
+    .content,
+    #news .card`);
 
 ScrollReveal({
     origin: 'bottom',
@@ -55,26 +56,26 @@ ScrollReveal({
     origin: 'right',
     distance: '100px',
     duration: '2000',
-    delay: '150'
+    delay: '100'
 }).reveal(`#escoteiro`);
 
 ScrollReveal({
     origin: 'right',
     distance: '100px',
     duration: '2000',
-    delay: '300'
+    delay: '200'
 }).reveal(`#senior`);
 
 ScrollReveal({
     origin: 'right',
     distance: '100px',
     duration: '2000',
-    delay: '450'
+    delay: '300'
 }).reveal(`#pioneiro`);
 
 ScrollReveal({
     origin: 'right',
     distance: '100px',
     duration: '2000',
-    delay: '600'
+    delay: '400'
 }).reveal(`#adulto`);

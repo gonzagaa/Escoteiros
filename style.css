@@ -89,12 +89,15 @@ h1 {
   line-height: 130%;
 
   text-transform: uppercase;
+
+  text-shadow: .5px .5px 6px #210F08;
 }
 
 /* input CEP or Localization =================== */
 
 #input {
-  background-color: var(--primary-color);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 70px -5px;
+  background: linear-gradient(180deg, rgba(23, 89, 6, 0.87) 0%, #000 186.4%);;
   margin-top: -4.3rem;
 
   height: 30vh;
@@ -126,7 +129,7 @@ input {
   min-height: 5rem;
   max-width: 20rem;
   padding: 0 1rem;
-  color: #fff;
+  color: #000;
   font-size: 15px;
   border: 1px solid var(--primary-color);
   border-radius: 6px 0 0 6px;
@@ -171,12 +174,16 @@ input:focus, input:focus-visible {
   gap: 5rem;
 }
 
+#ramos span {
+  color: var(--primary-color);
+  font-size: 1.3rem;
+}
+
 #ramos h2 {
   font-family: 'Ubuntu', sans-serif;
   font-weight: 700;
-
-  margin-top: 5rem;
   margin-bottom: 5rem;
+  margin-top: .5rem;
 }
 
 #ramos .card span a {
@@ -295,17 +302,40 @@ input:focus, input:focus-visible {
 
 }
 
-#news .card  {
-  border: 1px solid #000000;
-  border-radius: 2rem;
+#news .card {
+  padding: 20px;
+  width: 330px;
+  min-height: 370px;
+  border-radius: 20px;
+  background: #e8e8e8;
+  box-shadow: 5px 5px 6px #dadada,
+               -5px -5px 6px #f6f6f6;
+  transition: 0.4s;
+}
 
-  height: 28rem;
-  width: 25rem;
+#news .card:hover {
+  translate: 0 -10px;
+}
 
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
+#news .card-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--primary-color);
+  margin: 15px 0 0 10px;
+}
+
+#news .card-image {
+  min-height: 170px;
+  background-color: #c9c9c9;
+  border-radius: 15px;
+  box-shadow: inset 8px 8px 10px #c3c3c3,
+            inset -8px -8px 10px #cfcfcf;
+}
+
+#news .card-body {
+  margin: 13px 0 0 10px;
+  color: rgb(31, 31, 31);
+  font-size: 15px;
 }
 
 /* ABOUT =================== */
