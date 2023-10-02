@@ -3,23 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Escoteiros - Institucional</title>
+    <title>Escoteiros - Downloads</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link rel="stylesheet" href="./formulario.css">
-    <link rel="stylesheet" href="../footer/footer.css">
+    <link rel="stylesheet" href="./downloads.css">
+    <link rel="stylesheet" href="../footer/footer.css">k
     <link rel="stylesheet" href="../navigation/navigation.css">
 
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@400;700&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
+
     <nav id="navigation" class="">
 
         <div class="wrapper">
 
-            <a class="logo" href="../index.html">
+            <a class="logo" href="#home">
                 <img src="../assets/logo-colorida.svg" alt="">
             </a>
             
@@ -27,11 +28,11 @@
 
                 <ul>
                     <li><a onclick="closeMenu()" href="../index.html">Home</a></li>
-                    <li><a onclick="closeMenu()" href="/institucional/institucional.html">Institucional</a></li>
-                    <li><a onclick="closeMenu()" href="../downloads/downloads.html">Downloads</a></li>
+                    <li><a onclick="closeMenu()" href="../institucional/institucional.html">Institucional</a></li>
+                    <li><a onclick="closeMenu()" href="#">Downloads</a></li>
                     <li><a onclick="closeMenu()" href="#">Eventos</a></li>
                     <li><a onclick="closeMenu()" href="#">Notícias</a></li>
-                    <li><a onclick="closeMenu()" href="./formulario.html">Contato</a></li>
+                    <li><a onclick="closeMenu()" href="#">Contato</a></li>
                 </ul>
  
                  <a onclick="closeMenu()" class="button" href="#ramos">Seja Escoteiro</a>
@@ -105,40 +106,122 @@
     </nav>
 
     <header class="wrapper" id="cabeçalho">
-        <h1>Formulário</h1>
+        <h1>Downloads</h1>
     </header>
 
-    <section id="form">
+    <section id="downloads">
         
         <div class="wrapper">
         
+            <div class="topics">
+                <h2>TÓPICOS</h2>
+            
+                <a href="#">Resoluções Nacionais (linkar pro Nacional)</a>
+                <a href="#">Resoluções Regionais</a>
+                <a href="#">Documentos Regionais</a>
+
+                <details>
+                    <summary>Jovens por Ramos</summary>
+                    <ul>
+                        <li><a href="#">Lobinho</a></li>
+                        <li><a href="#">Escoteiro</a></li>
+                        <li><a href="#">Sênior</a></li>
+                        <li><a href="#">Pioneiro</a></li>
+                    </ul>
+                </details>
+
+                <details>
+                    <summary>Escotistas por Ramos</summary>
+                    <ul>
+                        <li><a href="#">Lobinho</a></li>
+                        <li><a href="#">Escoteiro</a></li>
+                        <li><a href="#">Sênior</a></li>
+                        <li><a href="#">Pioneiro</a></li>
+                    </ul>
+                </details>
+
+                <a href="#">Adultos Dirigentes</a>
+
+                <details>
+                    <summary>Cursos</summary>
+
+                    <ul>
+                        <li><a href="#">Preliminar</a></li>
+                        <li><a href="#">Intermediário</a></li>
+                        <li><a href="#">Avançado</a></li>
+                    </ul>
+                </details>
+
+                <a href="#">Leituras para pais</a>
+                <a href="#">Leituras para conhecer o escotismo (área para leigos)</a>
+                <a href="#">Artigos Científicos</a>
+
+            </div>
+
             <div class="content">
+
+                <div class="input-wrapper">
+                    <input id="filter" type="text" placeholder="Buscar por documento">
+                </div>
                 
-                <form action="https://formsubmit.co/iigust4vo@gmail.com" 
-                method="POST">
 
-                    <input type="hidden" name="_next" value="./sucesso.html">
+                <div class="cards">
+                    <div class="card">
+                        <svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12.0175 28.4817H26.6609" stroke="black" stroke-width="2" stroke-miterlimit="10"/>
+                            <path d="M12.0175 21.1792H26.6609" stroke="black" stroke-width="2" stroke-miterlimit="10"/>
+                            <path d="M12.0175 35.8033H26.6609" stroke="black" stroke-width="2" stroke-miterlimit="10"/>
+                            <path d="M32.1425 15.6783V43.125H6.53583V10.1967H26.6608L32.1425 15.6783Z" stroke="black" stroke-width="2" stroke-miterlimit="10"/>
+                            <path d="M32.1425 35.8033H39.4642V8.35667L33.9825 2.875H13.8575V10.1967" stroke="black" stroke-width="2" stroke-miterlimit="10"/>
+                            </svg>
+                            
+                        <span>Nome1</span>
+                        <p>Desc.</p>
+                        <button class="download">Download</button>    
+                    </div>
 
-                    <input type="hidden" name="_autoresponse" value="Obrigado! Recebemos sua mensagem."/>
+                    <div class="card">
+                        <svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12.0175 28.4817H26.6609" stroke="black" stroke-width="2" stroke-miterlimit="10"/>
+                            <path d="M12.0175 21.1792H26.6609" stroke="black" stroke-width="2" stroke-miterlimit="10"/>
+                            <path d="M12.0175 35.8033H26.6609" stroke="black" stroke-width="2" stroke-miterlimit="10"/>
+                            <path d="M32.1425 15.6783V43.125H6.53583V10.1967H26.6608L32.1425 15.6783Z" stroke="black" stroke-width="2" stroke-miterlimit="10"/>
+                            <path d="M32.1425 35.8033H39.4642V8.35667L33.9825 2.875H13.8575V10.1967" stroke="black" stroke-width="2" stroke-miterlimit="10"/>
+                            </svg>
+                            
+                        <span>Nome2</span>
+                        <p>Desc.</p>
+                        <button class="download">Download</button>    
+                    </div>
 
-                    <label for="name">Nome</label>
-                    <input type="text" id="name" required>
+                    <div class="card">
+                        <svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12.0175 28.4817H26.6609" stroke="black" stroke-width="2" stroke-miterlimit="10"/>
+                            <path d="M12.0175 21.1792H26.6609" stroke="black" stroke-width="2" stroke-miterlimit="10"/>
+                            <path d="M12.0175 35.8033H26.6609" stroke="black" stroke-width="2" stroke-miterlimit="10"/>
+                            <path d="M32.1425 15.6783V43.125H6.53583V10.1967H26.6608L32.1425 15.6783Z" stroke="black" stroke-width="2" stroke-miterlimit="10"/>
+                            <path d="M32.1425 35.8033H39.4642V8.35667L33.9825 2.875H13.8575V10.1967" stroke="black" stroke-width="2" stroke-miterlimit="10"/>
+                            </svg>
+                            
+                        <span>Nome3</span>
+                        <p>Desc.</p>
+                        <button class="download">Download</button>    
+                    </div>
 
-                    <label for="number">Telefone</label>
-                    <input type="number" id="number" required>
-
-                    <label for="email">Email</label>
-                    <input type="email" id="email">
-
-                    <label for="subject">Assunto</label>
-                    <input type="text" id="subject" required>
-
-                    <label for="textarea">Mensagem</label>
-                    <textarea name="text"></textarea>
-
-                    <button type="submit">Enviar</button>
-
-                </form>
+                    <div class="card">
+                        <svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12.0175 28.4817H26.6609" stroke="black" stroke-width="2" stroke-miterlimit="10"/>
+                            <path d="M12.0175 21.1792H26.6609" stroke="black" stroke-width="2" stroke-miterlimit="10"/>
+                            <path d="M12.0175 35.8033H26.6609" stroke="black" stroke-width="2" stroke-miterlimit="10"/>
+                            <path d="M32.1425 15.6783V43.125H6.53583V10.1967H26.6608L32.1425 15.6783Z" stroke="black" stroke-width="2" stroke-miterlimit="10"/>
+                            <path d="M32.1425 35.8033H39.4642V8.35667L33.9825 2.875H13.8575V10.1967" stroke="black" stroke-width="2" stroke-miterlimit="10"/>
+                            </svg>
+                            
+                        <span>Nome4</span>
+                        <p>Desc.</p>
+                        <button class="download">Download</button>    
+                    </div>
+                </div>
             </div>
 
         </div>
@@ -205,5 +288,6 @@
 
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="../main.js"></script>
+    <script src="./downloads.js"></script>
 </body>
 </html>

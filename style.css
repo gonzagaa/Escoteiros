@@ -41,7 +41,7 @@ body {
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
 
-  background-image: url(./assets/IMG_20181013_100255283_HDR\ \(1\)\ 3\ \(1\).jpg);
+  background-image: url(./assets/BG-IMAGE.jpg);
   background-position-x: 33%;
   background-repeat: no-repeat;
 
@@ -79,7 +79,7 @@ section {
   justify-content: center;
   align-items: center;
 
-  height: 80rem;
+  height: 61.3rem;
 
 }
 
@@ -100,7 +100,7 @@ h1 {
   background: linear-gradient(180deg, rgba(23, 89, 6, 0.87) 0%, #000 186.4%);;
   margin-top: -4.3rem;
 
-  height: 30vh;
+  height: 35vh;
 }
 
 .input {
@@ -212,7 +212,7 @@ input:focus, input:focus-visible {
 }
 
 #adulto span a:hover {
-  color: #1f0dc0;
+  color: #843D8A;
 }
 
 #ramos .card p {
@@ -265,7 +265,7 @@ input:focus, input:focus-visible {
 }
 
 #adulto .image-card {
-  border: .3rem solid #1f0dc0;
+  border: .3rem solid #843D8A;
 }
 
 /* NEWS =================== */
