@@ -311,10 +311,30 @@ input:focus, input:focus-visible {
   box-shadow: 5px 5px 6px #dadada,
                -5px -5px 6px #f6f6f6;
   transition: 0.4s;
+
+  font-family: 'Montserrat', sans-serif;
 }
 
 #news .card:hover {
   translate: 0 -10px;
+}
+
+#news .publication {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#news .publication p {
+  margin: 13px 0 0 10px;
+  color: #5a5a5a;
+  font-size: 13px;
+  font-weight: 300;
+  margin-bottom: 1.5rem;
+}
+
+#news .publication p span {
+  color: #000000;
 }
 
 #news .card-title {
@@ -332,10 +352,38 @@ input:focus, input:focus-visible {
             inset -8px -8px 10px #cfcfcf;
 }
 
+#news .card img {
+  width: 100%;
+  border-radius: 15px;
+}
+
 #news .card-body {
   margin: 13px 0 0 10px;
-  color: rgb(31, 31, 31);
+  color: #5a5a5a;
   font-size: 15px;
+  font-weight: 300;
+}
+
+#news .card-body span {
+  color: #707070;
+  font-weight: 700;
+}
+
+#news button {
+  background-color: var(--primary-color);
+  padding: .8rem 1rem;
+  border: none;
+  border-radius: 1rem;
+  color: var(--color-text);
+
+  margin-top: 2rem;
+
+  transition: all 300ms ease-in-out;
+
+}
+
+#news button:hover {
+  background-color: #134b05;
 }
 
 /* ABOUT =================== */
