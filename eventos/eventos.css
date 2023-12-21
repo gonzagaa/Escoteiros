@@ -105,6 +105,11 @@ header h1 {
     box-shadow: inset 8px 8px 10px #c3c3c3,
               inset -8px -8px 10px #cfcfcf;
   }
+
+  #events .card-image img {
+    object-fit: cover;
+    width: 100%;
+  }
   
   #events .card-desc {
     margin: 1.3rem 0 0 1rem;
@@ -202,6 +207,142 @@ header h1 {
     transform-origin: bottom left;
   }
 
+  #event {
+    background-color: var(--bg-color);
+    padding-block: 3rem;
+  }
+
+  #event .infos {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  #event .info {
+    text-align: left;
+
+    display: flex;
+    flex-direction: column;
+  }
+
+  #event h2 {
+    font-size: 3rem;
+    color: var(--second-color);
+  }
+
+  #event .date-and-local {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+  }
+
+  #event img {
+    width: min(60rem, 90%);
+
+    border-radius: 25px;
+    background: #e0e0e0;
+    box-shadow:  20px 20px 60px #bebebe,
+                -20px -20px 60px #ffffff;
+  }
+
+  #event .date-and-local {
+    margin-block: 2rem;
+  }
+
+  #event .date-and-local span {
+    display: flex;
+    align-items: center;
+    gap: .3rem;
+
+    font-size: 1.4rem;
+    color: #636363;
+  }
+
+  #event .date-and-local span svg {
+    fill: #cbcbcb;
+  }
+
+  #event .buttons {
+    margin-bottom: 2rem;
+  }
+
+  #event .buttons button {
+    font-size: 1.6rem;
+    
+    padding: .7rem 2rem;
+    border-radius: 1.3rem;
+    box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.75);
+
+    color: var(--color-text);
+    border: none;
+
+    transition: all 200ms ease-in-out;
+  }
+
+  #event .buttons .button-map {
+    background-color: var(--primary-color);
+
+    margin-right: 2rem;
+  }
+
+  #event .buttons .button-map:hover {
+    background-color: transparent;
+    outline: 1px solid var(--primary-color);
+    color: var(--primary-color);
+  }
+
+  #event .buttons .button-paxtu {
+    background-color: #edd100;
+  }
+
+  #event .buttons .button-paxtu:hover {
+    background-color: transparent;
+    outline: 1px solid #edd100;
+    color: #edd100;
+  }
+
+  #event .buttons button:hover {
+    cursor: pointer;
+  }
+
+  #event .text {
+    margin-top: 3rem;
+    font-size: 1.6rem;
+  }
+
+  #event .text p {
+    margin-bottom: 2rem;
+  }
+
+  #event .text span {
+    font-weight: 700;
+  }
+
+  #event .text ul {
+    list-style: circle;
+    margin-bottom: 2rem;
+  }
+
+  #event .text .button-pdf button {
+    background-color: var(--second-color);
+    border: none;
+
+    padding: .8rem 1.2rem;
+    color: var(--color-text);
+
+    transition: all 200ms;
+  }
+
+  #event .text .button-pdf button:hover {
+    cursor: pointer;
+    background-color: #2e54a7;
+  }
+
   @media (min-width: 1000px) {
     /* geral 1300px =================== */
     
@@ -215,6 +356,11 @@ header h1 {
         display: grid;
         grid-template-columns: 1fr 1fr;
       }
+
+    section#event .infos {
+      flex-direction: row;
+      gap: 2rem;
+    }
     }
 
   @media (min-width: 1300px) {

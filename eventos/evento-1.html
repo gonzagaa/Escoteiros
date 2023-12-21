@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Escoteiros - Contato</title>
+    <title>Escoteiros - Evento</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link rel="stylesheet" href="./formulario.css">
+    <link rel="stylesheet" href="./eventos.css">
     <link rel="stylesheet" href="../footer/footer.css">
     <link rel="stylesheet" href="../navigation/navigation.css">
 
@@ -29,9 +29,9 @@
                     <li><a onclick="closeMenu()" href="../index.html">Home</a></li>
                     <li><a onclick="closeMenu()" href="/institucional/institucional.html">Institucional</a></li>
                     <li><a onclick="closeMenu()" href="../downloads/downloads.html">Downloads</a></li>
-                    <li><a onclick="closeMenu()" href="../eventos/eventos.html">Eventos</a></li>
+                    <li><a onclick="closeMenu()" href="#">Eventos</a></li>
                     <li><a onclick="closeMenu()" href="../noticias/noticias.html">Notícias</a></li>
-                    <li><a onclick="closeMenu()" href="./formulario.html">Contato</a></li>
+                    <li><a onclick="closeMenu()" href="../formulario/formulario.html">Contato</a></li>
                 </ul>
  
                  <a onclick="closeMenu()" class="button" href="../index.html#ramos">Seja Escoteiro</a>
@@ -105,44 +105,70 @@
     </nav>
 
     <header class="wrapper" id="cabeçalho">
-        <h1>Formulário</h1>
+        <h1>Eventos</h1>
     </header>
 
-    <section id="form">
-        
+    <section id="event">
         <div class="wrapper">
-        
             <div class="content">
-                
-                <form action="https://formsubmit.co/iigust4vo@gmail.com" 
-                method="POST">
 
-                    <input type="hidden" name="_next" value="./sucesso.html">
+                <div class="infos">
+                    <div class="info">
+                        <h2>Desfile Cívico</h2>
 
-                    <input type="hidden" name="_autoresponse" value="Obrigado! Recebemos sua mensagem."/>
+                        <div class="date-and-local">
+                            <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#000000" viewBox="0 0 256 256"><path d="M208,32H184V24a8,8,0,0,0-16,0v8H88V24a8,8,0,0,0-16,0v8H48A16,16,0,0,0,32,48V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V48A16,16,0,0,0,208,32ZM72,48v8a8,8,0,0,0,16,0V48h80v8a8,8,0,0,0,16,0V48h24V80H48V48ZM208,208H48V96H208V208Zm-38.34-85.66a8,8,0,0,1,0,11.32l-48,48a8,8,0,0,1-11.32,0l-24-24a8,8,0,0,1,11.32-11.32L116,164.69l42.34-42.35A8,8,0,0,1,169.66,122.34Z"></path></svg>17/10/2023</span>
+                            <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#000000" viewBox="0 0 256 256"><path d="M128,64a40,40,0,1,0,40,40A40,40,0,0,0,128,64Zm0,64a24,24,0,1,1,24-24A24,24,0,0,1,128,128Zm0-112a88.1,88.1,0,0,0-88,88c0,31.4,14.51,64.68,42,96.25a254.19,254.19,0,0,0,41.45,38.3,8,8,0,0,0,9.18,0A254.19,254.19,0,0,0,174,200.25c27.45-31.57,42-64.85,42-96.25A88.1,88.1,0,0,0,128,16Zm0,206c-16.53-13-72-60.75-72-118a72,72,0,0,1,144,0C200,161.23,144.53,209,128,222Z"></path></svg></svg>AV. 24 DE OUTUBRO</span>
+                        </div>
 
-                    <label for="name">Nome</label>
-                    <input type="text" id="name" required>
+                        <div class="buttons">
+                            <a target="_blank" href="https://maps.app.goo.gl/cYvGgG8cbtmmHnaPA"><button class="button-map">Mapa</button></a>
+                            <a target="_blank" href="#"><button class="button-paxtu">Paxtu</button></a>
+                        </div>
+                    </div>
 
-                    <label for="number">Telefone</label>
-                    <input type="number" id="number" required>
+                    <img src="../assets/eventos/desfile civico.jpeg" alt="Capa do evento">
+                </div>
 
-                    <label for="email">Email</label>
-                    <input type="email" id="email">
+                <div class="text">
+                    <p>Estamos divulgando as informações referente ao <span>DESFILE CÍVICO MILITAR
+                        DO ANIVERSÁRIO DE GOIÂNIA - 2023</span>
+                        , destinado aos associados que estejam em
+                        dia com o registro UEB - 2023.</p>
 
-                    <label for="subject">Assunto</label>
-                    <input type="text" id="subject" required>
+                        <p><span>Informações sobre o evento:</span></p>
 
-                    <label for="textarea">Mensagem</label>
-                    <textarea name="text"></textarea>
+                        <ul>
+                            <li><span>Data:</span> 24/10/2023;</li>
+                            <li><span>Horário:</span> 08h até 10hs;</li>
+                            <li><span>Endereço:</span> AV. 24 DE OUTUBRO (EM FRENTE AO ESTÁDIO ANTÔNIO ACCIOLY);</li>
+                            <li><span>Vagas:</span> 40 inscrições;</li>
+                            <li><span>Investimento:</span> SEM TAXA;</li>
+                            <li><span>Inscrições:</span> As inscrições deverão ser feitas através do sistema PAXTU, pelo
+                                acesso individual (Meu PAXTU) até o dia 18/10/2023.</li>
+                        </ul>
 
-                    <button type="submit">Enviar</button>
+                        <p><span>Mais informações:</span></p>
 
-                </form>
+                        <p>A concentração dos <span>Escoteiros do Brasil</span> será as 07h00m em frente ao
+                        Estádio Antônio Accioly na Av. 24 de Outubro;</p>
+
+                        <p>O uso do vestuário será <span>obrigatório</span> para quem tem, o associado que não
+                        possuir deverá ir com uma camiseta de preferência da Unidade Escoteira ou com
+                        motivo escoteiro e lenço;</p>
+
+                        <p>Será servido um lanche (pão com presunto e suco);</p>    
+                        
+                        <p>Cada Unidade Escoteira será responsável pelo deslocamento até o evento e
+                            dispersão após o mesmo.
+                            Marcus Vinícius Ribeiro Lima
+                            Coordenador do Desfile Cívico Militar Aniversário de Goiânia - 2023</p>
+
+                        <a target="_blank" class="button-pdf" href="../arquivos/Comunicado Desfile Cívico - Aniversário de Goiânia 2023.pdf"><button>Vizualizar PDF</button></a>
+                </div>
+
             </div>
-
         </div>
-
     </section>
 
     <footer id="footer">
