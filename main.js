@@ -15,10 +15,14 @@ function showNavOnScroll() {
 }
 
 function showBackToTopButtonOnScroll() {
-    if(scrollY > 500) {
-        document.querySelector("#backToTopButton").classList.add("show")
-    } else {
-        document.querySelector("#backToTopButton").classList.remove("show")
+    const backToTopButton = document.querySelector("#backToTopButton");
+
+    if(backToTopButton) {
+        if(scrollY > 400) {
+            backToTopButton.classList.add("show")
+        } else {
+            backToTopButton.classList.remove("show")
+        }
     }
 }
 
