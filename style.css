@@ -313,7 +313,7 @@ input:focus, input:focus-visible {
 /* ABOUT =================== */
 
 #about {
-  background-color: var(--bg-color);
+  background-image: linear-gradient(to top, #175906, #155f0a, #11650f, #0a6c14, #007219);
 
   display: flex;
   flex-direction: column;
@@ -326,25 +326,32 @@ input:focus, input:focus-visible {
 #about header h2 {
   font-family: 'Ubuntu', sans-serif;
   margin-bottom: 2.4rem;
-  color: var(--primary-color);
+  color: var(--color-text);
 }
 
 #about header span {
   font-family: 'Ubuntu', sans-serif;
   font-weight: 400;
+  color: #fff;
 }
 
 #about .content p {
+  color: rgb(204, 204, 204);
   text-align: left;
   font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.5;
 
   margin-top: 2.4rem;
   margin-bottom: 6rem;
 }
 
 #about .content img {
+  aspect-ratio: 16/9;
+  object-fit: cover;
   border-radius: 2rem;
   width: 100%;
+  filter: drop-shadow(2px 2px 5px #000);
 }
 
 #events .cards {
@@ -560,11 +567,30 @@ section#news .cards {
 /* about 1300px =================== */
 
 section#about .content {
-  display: flex;
-  flex-direction: row;
-  gap: 3rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: start;
+  gap: 5rem;
 }
 
+
+section#about header {
+  margin-bottom: 6rem;
+}
+
+section#about header h2 {
+  font-size: 3rem;
+}
+
+section#about header span {
+  font-size: 2.2rem;
+}
+
+section#about .content p {
+  font-size: 1.6rem;
+  margin-top: initial;
+
+}
 } 
 
 
