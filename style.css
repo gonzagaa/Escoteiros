@@ -347,6 +347,148 @@ input:focus, input:focus-visible {
   width: 100%;
 }
 
+#events .cards {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  gap: 5rem;
+}
+
+#events .card {
+    padding: 2rem;
+    width: 33rem;
+    min-height: 37rem;
+    border-radius: 2rem;
+    background: #e8e8e8;
+    box-shadow: 5px 5px 6px #dadada,
+                 -5px -5px 6px #f6f6f6;
+    transition: 0.4s;
+  }
+  
+  #events .card:hover {
+    translate: 0 -1rem;
+  }
+  
+  #events .card-title {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #2e54a7;
+    margin: 1.2rem 0 0 1rem;
+  }
+  
+  #events .card-image {
+    min-height: 17rem;
+    background-color: #c9c9c9;
+    border-radius: 1.5rem;
+    box-shadow: inset 8px 8px 10px #c3c3c3,
+              inset -8px -8px 10px #cfcfcf;
+  }
+
+  #events .card-image img {
+    object-fit: cover;
+    width: 100%;
+  }
+  
+  #events .card-desc {
+    margin: 1.3rem 0 0 1rem;
+    color: rgb(31, 31, 31);
+    font-size: 1.5rem;
+  }
+  
+  #events .card-header {
+    margin: 1.5rem 0 0 1rem;
+    font-size: 1.2rem;
+    color: #636363;
+
+    margin-left: -.2rem;
+  }
+
+  #events .card-header span {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+  }
+
+  #events .cards .card .card-header span svg {
+    fill: #000;
+    opacity: .4;
+  }
+
+  #events .card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-inline: 1rem;
+  }
+  
+  #events .by-name {
+    font-weight: 700;
+  }
+
+  .saiba-mais {
+    border: none;
+    background: none;
+
+    margin: 1.5rem 0 0 1rem;
+  }
+
+  .saiba-mais a {
+    text-decoration: none;
+  }
+  
+  .saiba-mais span {
+    font-weight: 700;
+    padding-bottom: .7rem;
+    letter-spacing: .2rem;
+    font-size: 1.4rem;
+    padding-right: 1.5rem;
+    text-transform: uppercase;
+
+    color: #2e54a7;
+  }
+  
+  .saiba-mais svg {
+    transform: translateX(-8px);
+    transition: all 0.3s ease;
+    fill: #2e54a7;
+  }
+  
+  .saiba-mais:hover svg {
+    transform: translateX(0);
+  }
+  
+  .saiba-mais:active svg {
+    transform: scale(0.9);
+  }
+  
+  .hover-underline-animation {
+    position: relative;
+    color: black;
+    padding-bottom: 2rem;
+  }
+  
+  .hover-underline-animation:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #2e54a7;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .saiba-mais:hover .hover-underline-animation:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+
 /* backToTop =================== */
 
 #backToTopButton {
