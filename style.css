@@ -70,10 +70,20 @@ section {
 /* footer in ../footer/footer.css =================== */
 
 /*HOME =================== */
+body {
+  background-image: url(./assets/BG-IMAGE.jpg);
+  object-fit: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+
 #home {
   background-image: url(./assets/BG-IMAGE.jpg);
+  width: 100%;
   background-repeat: no-repeat;
-  background-position: 33%;
+  object-fit: cover;
+  height: 50vh;
 }
 
 #home .home-image {
@@ -81,7 +91,7 @@ section {
   justify-content: center;
   align-items: center;
 
-  height: 61.3rem;
+  height: 60vh;
 }
 
 h1 {
@@ -98,14 +108,12 @@ h1 {
 
 #input {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 70px -5px;
-  background: linear-gradient(180deg, rgba(23, 89, 6, 0.87) 0%, #000 186.4%);;
-  margin-top: -4.3rem;
+  background: linear-gradient(180deg, rgb(23, 89, 6) 0%, #000 186.4%);;
 
   height: 35vh;
 }
 
 .input {
-  padding-top: 2rem;
 
   margin-top: -7rem;
 
@@ -165,6 +173,9 @@ input:focus, input:focus-visible {
 }
 
 /* RAMOS =================== */
+#ramos {
+  background-color: var(--bg-color);
+}
 
 #ramos .cards {
   display: flex;
@@ -367,7 +378,7 @@ input:focus, input:focus-visible {
 #events .card {
     padding: 2rem;
     width: 33rem;
-    min-height: 37rem;
+    min-height: 60rem;
     border-radius: 2rem;
     background: #e8e8e8;
     box-shadow: 5px 5px 6px #dadada,
@@ -387,6 +398,7 @@ input:focus, input:focus-visible {
   }
   
   #events .card-image {
+    width: 100%;
     min-height: 17rem;
     background-color: #c9c9c9;
     border-radius: 1.5rem;
@@ -536,6 +548,10 @@ input:focus, input:focus-visible {
   width: min(133rem, 100%);
 }
 
+header#home {
+  background-position: initial;
+}
+
 /* input 1300px =================== */
 
   #input {
@@ -586,11 +602,15 @@ section#about header span {
   font-size: 2.2rem;
 }
 
-section#about .content p {
-  font-size: 1.6rem;
-  margin-top: initial;
+  section#about .content p {
+    font-size: 1.6rem;
+    margin-top: initial;
+  }
 
-}
+  section#events .wrapper .cards {
+    flex-direction: row;
+  }
+
 } 
 
 
