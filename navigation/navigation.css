@@ -205,7 +205,7 @@ nav {
 
   /* RESPONSIVE =================== */
 
-@media (min-width: 1300px) {
+@media (min-width: 1080px) {
     /* reset =================== */
       nav#navigation .wrapper * {
         margin: 0;
