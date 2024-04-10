@@ -571,12 +571,12 @@ section#ramos .cards {
 }
 
 section#ramos .image-card {
-  height: 23rem;
-  width: 20rem;
+  height: 20rem;
+  width: 15rem;
 }
 
 section#ramos img {
-  width: 15rem;
+  width: 12rem;
 }
 
 /* news 1300px =================== */
@@ -614,7 +614,8 @@ section#about header span {
   }
 
   section#events .wrapper .cards {
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 
 } 
