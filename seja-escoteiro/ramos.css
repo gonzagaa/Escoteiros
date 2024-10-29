@@ -69,18 +69,26 @@ header h1 {
     padding: 3rem;
 }
 
-#ramo .content .principal-image {
+#ramo .content img.principal-image {
     width: 100%;
     border-radius: 2rem;
     filter: saturate(1.1) contrast(1.1);
 
     position: relative;
+
+    aspect-ratio: 16/9;
+    object-fit: cover;
 }
 
 #ramo .content p {
     margin-top: 3rem;
 
     font-size: 1.8rem;
+    line-height: 1.6;
+}
+
+#ramo .content p span {
+  font-weight: 700;
 }
 
 #ramo .content .ramo-logo {
@@ -89,4 +97,10 @@ header h1 {
     right: 33rem;
     z-index: 100;
     width: 10rem;
+}
+
+@media (min-width: 1080px) {
+  #ramo .content p {
+    font-size: 1.8rem;
+  }
 }

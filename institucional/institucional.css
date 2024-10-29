@@ -86,8 +86,18 @@ header h1 {
 }
 
 #institutional .content p {
-    font-size: 1.6rem;
+    font-size: 1.3rem;
+    line-height: 1.6;
     
     margin-bottom: 3rem;
 }
 
+#institutional .content p span {
+  font-weight: 700;
+}
+
+@media (min-width: 1080px) {
+  #institutional .content p {
+    font-size: 1.8rem;
+  }
+}
